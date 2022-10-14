@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Recipe assistant</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html" class="nav">Recipes</a>
+        </li>
+        <li><span class="line"></span></li>
+        <li>
+          <a href="make.html" class="nav2">Inspire Me</a>
+        </li>
+        <li><span class="line"></span></li>
+        <li>
+          <a href="need.html" class="nav">Meal Selector</a>
+        </li>
+      </ul> 
+    </nav>
+    <ul id="results-list">
+
+      </ul>
+    <div class="form">
+        <img class="make-pic" src="tompaste.png" alt="">
+        <label class="container">Tomato Puree
+            <input onclick="validate(tompuree)" type="checkbox" class="checkboxes" value="tomato puree">
+            <span class="checkmark"></span>            
+          </label>
+                     
+          <img class="make-pic" src="tomsauce.png" alt="">
+          <label class="container">Tomato Sauce
+            <input onclick="validate(tomsauce)" type="checkbox" class="checkboxes" value="tomato sauce">
+            <span class="checkmark"></span>
+          </label>  
+         
+          <img class="make-pic" src="garlic.png" alt="">
+          <label class="container">Garlic    
+            <input onclick="validate(garlic)" type="checkbox" class="checkboxes" value="garlic">
+            <span class="checkmark"></span>
+          </label>
+         
+          <img class="make-pic" src="wrap.png" alt="">
+          <label class="container">Wrap
+            <input onclick="validate(wrap)" type="checkbox" class="checkboxes" value="wrap">
+            <span class="checkmark"></span>
+          </label>
+         
+          <img class="make-pic" src="leek.png" alt="">
+          <label class="container">Leek
+            <input onclick="validate(leek)" type="checkbox" class="checkboxes" value="leek">
+            <span class="checkmark"></span>
+          </label>    
+
+          <img class="make-pic" src="pepper.png" alt="">
+          <label class="container">Pepper
+            <input onclick="validate(pepper)" type="checkbox" class="checkboxes" value="pepper">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="prawns.png" alt="">
+          <label class="container">Prawns
+            <input onclick="validate(prawns)" type="checkbox" class="checkboxes" value="prawns">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="gratedcheese.png" alt="">
+          <label class="container">Grated Cheese
+            <input onclick="validate(gratedcheese)" type="checkbox" class="checkboxes" value="grated cheese">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="greekcheese.png" alt="">
+          <label class="container">Greek Cheese
+            <input onclick="validate(greekcheese)" type="checkbox" class="checkboxes" value="greek cheese">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="vegstock.png" alt="">
+          <label class="container">Veg Stock
+            <input onclick="validate(vegstock)" type="checkbox" class="checkboxes" value="veg stock">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="spaghetti.png" alt="">
+          <label class="container">Spaghetti/Noodles
+            <input onclick="validate(spaghetti)" type="checkbox" class="checkboxes" value="spaghetti/noodles">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="pasta.png" alt="">
+          <label class="container">Pasta
+            <input onclick="validate(pasta)" type="checkbox" class="checkboxes" value="pasta">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="rice.png" alt="">
+          <label class="container">Rice
+            <input onclick="validate(rice)" type="checkbox" class="checkboxes" value="rice">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="yoghurt.png" alt="">
+          <label class="container">Yoghurt
+            <input onclick="validate(yoghurt)" type="checkbox" class="checkboxes" value="yoghurt">
+            <span class="checkmark"></span>
+          </label>  
+         
+          <img class="make-pic" src="sweetcorn.png" alt="">
+          <label class="container">Sweetcorn
+            <input onclick="validate(sweetcorn)" type="checkbox" class="checkboxes" value="sweetcorn">
+            <span class="checkmark"></span>
+          </label>   
+          
+          <img class="make-pic" src="parsley.png" alt="">
+          <label class="container">Parsley
+            <input onclick="validate(parsley)" type="checkbox" class="checkboxes" value="parsley">
+            <span class="checkmark"></span>
+          </label>   
+         
+          <img class="make-pic" src="onion.png" alt="">
+          <label class="container">Onion
+            <input onclick="validate(onion)" type="checkbox" class="checkboxes" value="onion">
+            <span class="checkmark"></span>
+          </label>  
+
+           
+          <img class="make-pic" src="cremefraishe.png" alt="">
+          <label class="container">Creme Fraishe
+            <input onclick="validate(cremefraishe)" type="checkbox" class="checkboxes" value="creme fraishe">
+            <span class="checkmark"></span>
+          </label>  
+
+           
+          <img class="make-pic" src="coriander.png" alt="">
+          <label class="container">Coriander leaf/spice
+            <input onclick="validate(coriander)" type="checkbox" class="checkboxes" value="coriander leaf/spice">
+            <span class="checkmark"></span>
+          </label>  
+           
+          <img class="make-pic" src="mint.png" alt="">
+          <label class="container">Mint
+            <input onclick="validate(mint)" type="checkbox" class="checkboxes" value="mint">
+            <span class="checkmark"></span>
+          </label>  
+                    
+          <img class="make-pic" src="lamb.png" alt="">
+          <label class="container">Lamb
+            <input onclick="validate(lamb)" type="checkbox" class="checkboxes" value="lamb">
+            <span class="checkmark"></span>
+          </label>             
+
+          <img class="make-pic" src="chicken.png" alt="">
+          <label class="container">Chicken
+            <input onclick="validate(chicken)" type="checkbox" class="checkboxes" value="chicken">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="mincemeat.png" alt="">
+          <label class="container">Mince meat
+            <input onclick="validate(mincemeat)" type="checkbox" class="checkboxes" value="mince meat">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="lasagnesauce.png" alt="">
+          <label class="container">Lasagne Sauce
+            <input onclick="validate(lasagnesauce)" type="checkbox" class="checkboxes" value="lasagne sauce">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="lasagnesheets.png" alt="">
+          <label class="container">Lasagne Sheets
+            <input onclick="validate(lasagnesheets)" type="checkbox" class="checkboxes" value="lasagne sheets">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="milk.png" alt="">
+          <label class="container">Milk
+            <input onclick="validate(milk)" type="checkbox" class="checkboxes" value="milk">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="butter.png" alt="">
+          <label class="container">Butter
+            <input onclick="validate(butter)" type="checkbox" class="checkboxes" value="butter">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="flour.png" alt="">
+          <label class="container">Flour
+            <input onclick="validate(flour)" type="checkbox" class="checkboxes" value="flour">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="teriyakisauce.png" alt="">
+          <label class="container">Teriyaki Sauce
+            <input onclick="validate(teriyakisauce)" type="checkbox" class="checkboxes" value="teriyaki sauce">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="ginger.png" alt="">
+          <label class="container">Ginger spice/puree
+            <input onclick="validate(ginger)" type="checkbox" class="checkboxes" value="ginger spice/puree">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="greenbeans.png" alt="">
+          <label class="container">Green beans/Asparagus
+            <input onclick="validate(greenbeans)" type="checkbox" class="checkboxes" value="green beans/asparagus">
+            <span class="checkmark"></span>
+          </label>  
+
+          <img class="make-pic" src="okra.png" alt="">
+          <label class="container">Okra
+            <input onclick="validate(okra)" type="checkbox" class="checkboxes" value="okra">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="burgerbuns.png" alt="">
+          <label class="container">Burger buns
+            <input onclick="validate(burgerbuns)" type="checkbox" class="checkboxes" value="burger buns">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="haloumicheese.png" alt="">
+          <label class="container">Haloumi cheese
+            <input onclick="validate(haloumicheese)" type="checkbox" class="checkboxes" value="haloumi cheese">
+            <span class="checkmark"></span>
+          </label> 
+
+
+          <img class="make-pic" src="spinach.png" alt="">
+          <label class="container">Spinach
+            <input onclick="validate(spinach)" type="checkbox" class="checkboxes" value="spinach">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="coconutmilk.png" alt="">
+          <label class="container">Coconut Milk
+            <input onclick="validate(coconutmilk)" type="checkbox" class="checkboxes" value="coconut milk">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="thaigreenpaste.png" alt="">
+          <label class="container">Thai Green Paste
+            <input onclick="validate(thaigreenpaste)" type="checkbox" class="checkboxes" value="thai green paste">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="honey.png" alt="">
+          <label class="container">Honey
+            <input onclick="validate(honey)" type="checkbox" class="checkboxes" value="honey">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="soysauce.png" alt="">
+          <label class="container">Soy Sauce
+            <input onclick="validate(soysauce)" type="checkbox" class="checkboxes" value="soy sauce">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="vinegar.png" alt="">
+          <label class="container">Vinegar
+            <input onclick="validate(vinegar)" type="checkbox" class="checkboxes" value="vinegar">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="breadcrumbs.png" alt="">
+          <label class="container">Bread Crumbs
+            <input onclick="validate(breadcrumbs)" type="checkbox" class="checkboxes" value="breadcrumbs">
+            <span class="checkmark"></span>
+          </label> 
+
+          <img class="make-pic" src="vineleaves.png" alt="">
+          <label class="container">Vine Leaves
+            <input onclick="validate(vineleaves)" type="checkbox" class="checkboxes" value="vine leaves">
+            <span class="checkmark"></span>
+          </label> 
+          
+
+        </div>   
+        <span class="results">
+          <button  onclick="results(ingredients)">Recipes</button>
+
+         
+        </span>
+    <footer></footer>
+  
+    <script src="script3.js"></script>
+  </body>
+</html>
