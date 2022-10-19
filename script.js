@@ -115,7 +115,7 @@ const chilliConCarne = [
 ];
 
 const chickenPasta = [
-  { name: "Veg-Stock", quantity: 20, unit: "g" },
+  { name: "Chicken-Stock", quantity: 20, unit: "g" },
   { name: "Penne-Pasta", quantity: 500, unit: "g" },
   { name: "Chicken", quantity: 500, unit: "g" },
   { name: "Onion", quantity: 1.5, unit: " pieces" },
@@ -186,6 +186,7 @@ const stuffedVineLeaves= [
 const kabsa= [
   { name: "Carrot", quantity: 120, unit: "g" },
   { name: "Tomatoes", quantity: 400, unit: "g" },
+  { name: "Chicken-Stock", quantity: 12, unit: "g" },
   { name: "Rice", quantity: 400, unit: "g" },
   { name: "Garlic", quantity: 6, unit: " cloves" },
   { name: "Chicken", quantity: 650, unit: "g" },
@@ -209,7 +210,7 @@ const roganJosh= [
   { name: "Chicken", quantity: 500, unit: "g" },
    { name: "Tomato-Sauce", quantity: 70, unit: "g" },
   { name: "Onion", quantity: 1, unit: " pieces" },
-  { name: "Chicken-Stock", quantity: 300, unit: "ml" },
+  { name: "Chicken-Stock", quantity: 12, unit: "g" },
   { name: "Chilli", quantity: 3, unit: "g" },
   { name: "Tumeric", quantity: 14, unit: "g" },
    { name: "Cumin", quantity: 30, unit: "g" },
@@ -275,7 +276,7 @@ const ingredientPrices = [
   { name: "Linguine", price: 0.8, perUnit: 500 },
   { name: "Angel-Hair-Pasta", price: 1.0, perUnit: 500 },
   { name: "Chickpeas", price: 0.45, perUnit: 250 },
-  { name: "Chicken-Stock", price: 5.99, perUnit: 1000 },
+  { name: "Chicken-Stock", price: 3.99, perUnit: 576 },
   { name: "Garlic-Naan", price: 1.2, perUnit: 2 },
   { name: "Ghee", price: 4.5, perUnit: 500 },
   { name: "Cinnamon-Stick", price: 1, perUnit: 100 },
