@@ -234,6 +234,22 @@ const rishda= [
    { name: "Ginger", quantity: 12, unit: "g" },
    { name: "Clove", quantity: 12, unit: "g" },
 ];
+const tagine= [
+  { name: "Onions", quantity: 4, unit: " pieces" },
+  { name: "Peas", quantity: 160, unit: "g" },
+  { name: "Lamb", quantity: 600, unit: "g" },
+ { name: "Carrot", quantity: 1, unit: " pieces" },
+ { name: "Garlic", quantity: 3, unit: " pieces" },
+   { name: "Potato", quantity: 170, unit: "g" },
+   { name: "Lemon", quantity: 1, unit: " Tbsp" },
+  { name: "Tomato", quantity: 3, unit: " pieces" },
+  { name: "Pepper", quantity: 1, unit: " pieces" },
+  { name: "Paprika", quantity: 12, unit: "g" },
+   { name: "Ginger", quantity: 12, unit: "g" },
+   { name: "Tumeric", quantity: 12, unit: "g" },
+   { name: "Parsley", quantity: 30, unit: "g" },
+   
+];
 
 const wheatabix= [
   { name: "Wheatabix", quantity: 1, unit: " pieces" },  
@@ -276,6 +292,7 @@ const ingredientPrices = [
   { name: "Linguine", price: 0.8, perUnit: 500 },
   { name: "Angel-Hair-Pasta", price: 1.0, perUnit: 500 },
   { name: "Chickpeas", price: 0.45, perUnit: 250 },
+  { name: "Lemon", price: 0, perUnit: 10 },
   { name: "Chicken-Stock", price: 3.99, perUnit: 576 },
   { name: "Garlic-Naan", price: 1.2, perUnit: 2 },
   { name: "Ghee", price: 4.5, perUnit: 500 },
@@ -302,6 +319,7 @@ const ingredientPrices = [
   { name: "Raisins", price: 1.25, perUnit: 500 },
   { name: "Vine-Leaves", price: 0, perUnit: 2000 },
   { name: "Tomatoes", price: 1.19, perUnit: 500 },
+  { name: "Tomato", price: 1.19, perUnit: 6 },
   { name: "Carrot", price: 0.45, perUnit: 1000 },
   { name: "Macaroni-Pasta", price: 0.69, perUnit: 500 },
   { name: "Cauliflower", price: 0.85, perUnit: 400 },
@@ -312,13 +330,14 @@ const ingredientPrices = [
   { name: "Lettuce", price: 0.57, perUnit: 200 },
   { name: "Cheese-Slices", price: 0.95, perUnit: 8 },
   { name: "Potatoes", price: 1.19, perUnit: 2500 },
+  { name: "Potato", price: 1.19, perUnit: 2500 },
   { name: "Chinese-Leaf", price: 0.8, perUnit: 500 },
   { name: "Orzo pasta/Spaghetti", price: 0.5, perUnit: 500 },
   { name: "Peas", price: 0.65, perUnit: 900 },
   { name: "Tomato-Puree", price: 0.39, perUnit: 200 },
   { name: "Tomato-Sauce", price: 0.59, perUnit: 500 },
   { name: "Vinegar", price: 1.05, perUnit: 500 },
-  { name: "Parsley", price: 0.55, perUnit: 60 },
+  { name: "Parsley", price: 0.57, perUnit: 30 },
   { name: "Garlic", price: 0.79, perUnit: 40 },
   { name: "Ginger-Puree", price: 0.69, perUnit: 75 },
   { name: "Wrap", price: 0.55, perUnit: 8 },
@@ -338,7 +357,7 @@ const ingredientPrices = [
   { name: "Creme-Fraishe", price: 0.99, perUnit: 300 },
   { name: "Coriander", price: 0.55, perUnit: 1 },
   { name: "Mint", price: 0.5, perUnit: 1 },
-  { name: "Lamb", price: 1.6, perUnit: 100 },
+  { name: "Lamb", price: 1, perUnit: 100 },
   { name: "Chicken", price: 0.8, perUnit: 100 },
   { name: "Mince-Meat", price: 4.0, perUnit: 500 },
   { name: "Lasagne-Sauce", price: 0.65, perUnit: 480 },
@@ -401,6 +420,7 @@ btn26 = document.querySelectorAll('.counter')[25]
 btn27 = document.querySelectorAll('.counter')[26]
 btn28 = document.querySelectorAll('.counter')[27]
 btn29 = document.querySelectorAll('.counter')[28]
+btn30 = document.querySelectorAll('.counter')[29]
 
 menu2 = document.getElementById("menu-list")
 
