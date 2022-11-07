@@ -139,16 +139,17 @@ const thaiGreenCurry = [
 ];
 
 const sweetChickenNoodles= [
-  { name: "Udon-Noodles", quantity: 400, unit: "g" },
+  { name: "Udon-Noodles", quantity: 500, unit: "g" },
   { name: "Chicken", quantity: 500, unit: "g" },
   { name: "Garlic", quantity: 4, unit: " cloves" },
   { name: "Ginger-Spice", quantity: 2, unit: "g" },
-  { name: "Honey", quantity: 70, unit: "g" },
+  { name: "Golden-Syrup", quantity: 180, unit: "g" },
   { name: "Spring-Onion", quantity: 200, unit: "g" },
   { name: "Flour", quantity: 20, unit: "g" },  
+  { name: "Bbq-Seasoning", quantity: 2, unit: "g" },  
   { name: "Pepper", quantity: 2, unit: " pieces" },
-  { name: "Sweet-Soy-Sauce", quantity: 100, unit: "g" },
-  { name: "Soy-Sauce", quantity: 100, unit: "g" },
+  { name: "Sweet-Soy-Sauce", quantity: 50, unit: "g" },
+  { name: "Soy-Sauce", quantity: 50, unit: "g" },
   { name: "Vinegar", quantity: 75, unit: "ml" },
 ];
 
@@ -290,6 +291,7 @@ const washingPowder= [
 
 const ingredientPrices = [
   { name: "Linguine", price: 0.8, perUnit: 500 },
+  { name: "Golden-Syrup", price: 1.09, perUnit: 680 },
   { name: "Angel-Hair-Pasta", price: 1.0, perUnit: 500 },
   { name: "Chickpeas", price: 0.45, perUnit: 250 },
   { name: "Lemon", price: 0, perUnit: 10 },
@@ -300,6 +302,7 @@ const ingredientPrices = [
   { name: "Green-Cardamon", price: 2.99, perUnit: 50 },
   { name: "Cloves", price: 0.20, perUnit: 40 },
   { name: "Chilli", price: 0.20, perUnit: 40 },
+  { name: "Bbq-Seasoning", price: 0.20, perUnit: 50 },
   { name: "Garam-Masala", price: 1.19, perUnit: 100 },
   { name: "Nutmeg", price: 0.20, perUnit: 40 },
   { name: "Honey", price: 1.49, perUnit: 340 },
