@@ -44,15 +44,20 @@ const pepperCornTaco = [
 ];
 
 const sharbaLibya = [
-  { name: "Onion", quantity: 0.5, unit: " pieces" },
+  { name: "Onion", quantity: 1, unit: " piece" },
   { name: "Lamb", quantity: 500, unit: "g" },
-  { name: "Tomato-Sauce", quantity: 200, unit: "g" },
-  { name: "Tomato-Puree", quantity: 20, unit: "g" },
-  { name: "Coriander", quantity: 1, unit: " handful" },
+  { name: "Tomato", quantity: 3, unit: " pieces" },
+  { name: "Tomato-Puree", quantity: 35, unit: "g" },
+  { name: "Parsley", quantity: 1, unit: " handful" },
   { name: "Orzo pasta/Spaghetti", quantity: 100, unit: "g" },
   { name: "Mint", quantity: 1, unit: " handful" },
-  { name: "Clove", quantity: 6, unit: "g" },
-  { name: "Tumeric", quantity: 6, unit: "g" },
+  { name: "Clove", quantity: 4, unit: "g" },
+  { name: "Tumeric", quantity: 3, unit: "g" },
+  { name: "Nutmeg", quantity: 1.5, unit: "g" },
+  { name: "Cinnamon", quantity: 1.5, unit: "g" },
+  { name: "Cumin", quantity: 1.5, unit: "g" },
+  { name: "Ginger", quantity: 1.5, unit: "g" },
+  { name: "Paprika", quantity: 1.5, unit: "g" },
 ];
 
 const bamia = [
