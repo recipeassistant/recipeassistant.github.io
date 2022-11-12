@@ -144,17 +144,17 @@ const thaiGreenCurry = [
 ];
 
 const sweetChickenNoodles= [
-  { name: "Udon-Noodles", quantity: 500, unit: "g" },
+  { name: "Udon-Noodles", quantity: 400, unit: "g" },
   { name: "Chicken", quantity: 500, unit: "g" },
   { name: "Garlic", quantity: 4, unit: " cloves" },
   { name: "Ginger-Spice", quantity: 2, unit: "g" },
-  { name: "Golden-Syrup", quantity: 180, unit: "g" },
+  { name: "Golden-Syrup", quantity: 200, unit: "g" },
   { name: "Spring-Onion", quantity: 200, unit: "g" },
   { name: "Flour", quantity: 20, unit: "g" },  
   { name: "Bbq-Seasoning", quantity: 2, unit: "g" },  
   { name: "Pepper", quantity: 2, unit: " pieces" },
-  { name: "Sweet-Soy-Sauce", quantity: 50, unit: "g" },
-  { name: "Soy-Sauce", quantity: 50, unit: "g" },
+  { name: "Sweet-Soy-Sauce", quantity: 70, unit: "g" },
+  { name: "Soy-Sauce", quantity: 30, unit: "g" },
   { name: "Vinegar", quantity: 75, unit: "ml" },
 ];
 
