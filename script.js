@@ -46,7 +46,7 @@ const pepperCornTaco = [
 const sharbaLibya = [
   { name: "Onion", quantity: 1, unit: " piece" },
   { name: "Lamb", quantity: 500, unit: "g" },
-  { name: "Tomato", quantity: 3, unit: " pieces" },
+  { name: "Tomatoes", quantity: 3, unit: " pieces" },
   { name: "Tomato-Puree", quantity: 35, unit: "g" },
   { name: "Parsley", quantity: 1, unit: " handful" },
   { name: "Orzo pasta/Spaghetti", quantity: 100, unit: "g" },
@@ -90,13 +90,13 @@ const lasagne = [
 ];
 
 const beefTeriyakiNoodles = [
-  { name: "Teriyaki-Sauce", quantity: 300, unit: "g" },
+  { name: "Teriyaki/BBQ-Jerk-Sauce", quantity: 300, unit: "g" },
   { name: "Beef", quantity: 400, unit: "g" },
-  { name: "Linguine", quantity: 400, unit: "g" },
+  { name: "Udon-Noodles", quantity: 500, unit: "g" },
   { name: "Garlic", quantity: 3, unit: " cloves" },
   { name: "Ginger-Puree", quantity: 60, unit: "g" },
   { name: "Green-Beans", quantity: 150, unit: "g" },
-  { name: "Chinese-Leaf", quantity: 240, unit: "g" },
+  { name: "Chinese-Leaf/Cabbage", quantity: 240, unit: "g" },
   { name: "Coriander", quantity: 1, unit: " handful" },
   // { name: "Aubergine", quantity: 2, unit: "g" },
 ];
@@ -191,7 +191,7 @@ const stuffedVineLeaves= [
 
 const kabsa= [
   { name: "Carrot", quantity: 120, unit: "g" },
-  { name: "Tomatoes", quantity: 400, unit: "g" },
+  { name: "Tomatoes", quantity: 5, unit: " pieces" },
   { name: "Chicken-Stock", quantity: 12, unit: "g" },
   { name: "Rice", quantity: 400, unit: "g" },
   { name: "Garlic", quantity: 6, unit: " cloves" },
@@ -248,7 +248,7 @@ const tagine= [
  { name: "Garlic", quantity: 3, unit: " pieces" },
    { name: "Potato", quantity: 170, unit: "g" },
    { name: "Lemon", quantity: 1, unit: " Tbsp" },
-  { name: "Tomato", quantity: 3, unit: " pieces" },
+  { name: "Tomatoes", quantity: 3, unit: " pieces" },
   { name: "Pepper", quantity: 1, unit: " pieces" },
   { name: "Paprika", quantity: 12, unit: "g" },
    { name: "Ginger", quantity: 12, unit: "g" },
@@ -326,8 +326,7 @@ const ingredientPrices = [
   { name: "Coriander-Spice", price: 0.2, perUnit: 40 },
   { name: "Raisins", price: 1.25, perUnit: 500 },
   { name: "Vine-Leaves", price: 0, perUnit: 2000 },
-  { name: "Tomatoes", price: 1.19, perUnit: 500 },
-  { name: "Tomato", price: 1.19, perUnit: 6 },
+  { name: "Tomatoes", price: 1.19, perUnit: 6 },
   { name: "Carrot", price: 0.45, perUnit: 1000 },
   { name: "Macaroni-Pasta", price: 0.69, perUnit: 500 },
   { name: "Cauliflower", price: 0.85, perUnit: 400 },
@@ -339,7 +338,7 @@ const ingredientPrices = [
   { name: "Cheese-Slices", price: 0.95, perUnit: 8 },
   { name: "Potatoes", price: 1.19, perUnit: 2500 },
   { name: "Potato", price: 1.19, perUnit: 2500 },
-  { name: "Chinese-Leaf", price: 0.8, perUnit: 500 },
+  { name: "Chinese-Leaf/Cabbage", price: 0.8, perUnit: 500 },
   { name: "Orzo pasta/Spaghetti", price: 0.5, perUnit: 500 },
   { name: "Peas", price: 0.65, perUnit: 900 },
   { name: "Tomato-Puree", price: 0.39, perUnit: 200 },
@@ -373,7 +372,7 @@ const ingredientPrices = [
   { name: "Milk", price: 1.45, perUnit: 2270 },
   { name: "Butter", price: 2.15, perUnit: 500 },
   { name: "Flour", price: 0.55, perUnit: 1500 },
-  { name: "Teriyaki-Sauce", price: 0.89, perUnit: 310 },
+  { name: "Teriyaki/BBQ-Jerk-Sauce", price: 0.89, perUnit: 310 },
   { name: "Ginger", price: 0.69, perUnit: 125 },
   { name: "Green-Beans", price: 0.69, perUnit: 1000 },
   { name: "Okra", price: 2.5, perUnit: 500 },
