@@ -14,7 +14,7 @@ const prawnRisotto = [
 
 const prawnLinguine = [
   { name: "Parsley", quantity: 1, unit: " handful" },
-  { name: "Onion", quantity: 1, unit: " pieces" },
+  { name: "Onions", quantity: 1, unit: " pieces" },
   { name: "Garlic", quantity: 2, unit: " cloves" },
   { name: "Linguine", quantity: 400, unit: "g" },
   { name: "Veg-Stock", quantity: 20, unit: "g" },
@@ -25,7 +25,7 @@ const prawnLinguine = [
 
 const chickenLinguine = [
   { name: "Parsley", quantity: 1, unit: " handful" },
-  { name: "Onion", quantity: 1, unit: " pieces" },
+  { name: "Onions", quantity: 1, unit: " pieces" },
   { name: "Garlic", quantity: 2, unit: " cloves" },
   { name: "Linguine", quantity: 400, unit: "g" },
   { name: "Veg-Stock", quantity: 20, unit: "g" },
@@ -44,7 +44,7 @@ const pepperCornTaco = [
 ];
 
 const sharbaLibya = [
-  { name: "Onion", quantity: 1, unit: " piece" },
+  { name: "Onions", quantity: 1, unit: " piece" },
   { name: "Lamb", quantity: 500, unit: "g" },
   { name: "Tomatoes", quantity: 3, unit: " pieces" },
   { name: "Tomato-Puree", quantity: 35, unit: "g" },
@@ -63,7 +63,7 @@ const sharbaLibya = [
 const bamia = [
   { name: "Rice", quantity: 315, unit: "g" },
   { name: "Okra", quantity: 500, unit: "g" },
-  { name: "Onion", quantity: 3, unit: "g" },
+  { name: "Onions", quantity: 3, unit: "g" },
   { name: "Lamb", quantity: 500, unit: "g" },
   { name: "Tomato-Puree", quantity: 90, unit: "g" },
   { name: "Cumin", quantity: 6, unit: "g" },
@@ -80,7 +80,7 @@ const lambRice = [
 ];
 
 const lasagne = [
-  { name: "Onion", quantity: 2, unit: "pieces" },
+  { name: "Onions", quantity: 2, unit: "pieces" },
   { name: "Beef", quantity: 400, unit: "g" },
   { name: "Lasagne-Sauce", quantity: 500, unit: "g" },
   { name: "Lasagne-Sheets", quantity: 10, unit: " sheets" },
@@ -111,7 +111,7 @@ const haloumiBurger = [
 const chilliConCarne = [
   { name: "Pepper", quantity: 1, unit: " pieces" },
   { name: "Beef", quantity: 500, unit: "g" },
-  { name: "Onion", quantity: 2, unit: " pieces" },
+  { name: "Onions", quantity: 2, unit: " pieces" },
   { name: "Tomato-Sauce", quantity: 400, unit: "g" },
   { name: "Garlic", quantity: 2, unit: " cloves" },
   { name: "Coriander", quantity: 1, unit: " handful" },  
@@ -123,7 +123,7 @@ const chickenPasta = [
   { name: "Chicken-Stock", quantity: 20, unit: "g" },
   { name: "Penne-Pasta", quantity: 500, unit: "g" },
   { name: "Chicken", quantity: 500, unit: "g" },
-  { name: "Onion", quantity: 1.5, unit: " pieces" },
+  { name: "Onions", quantity: 1.5, unit: " pieces" },
   { name: "Tomato-Sauce", quantity: 400, unit: "g" },
   { name: "Cajun", quantity: 6, unit: "g" },
   { name: "Garlic", quantity: 2, unit: " cloves" },
@@ -149,7 +149,7 @@ const sweetChickenNoodles= [
   { name: "Garlic", quantity: 4, unit: " cloves" },
   { name: "Ginger-Spice", quantity: 2, unit: "g" },
   { name: "Golden-Syrup", quantity: 200, unit: "g" },
-  { name: "Spring-Onion", quantity: 200, unit: "g" },
+  { name: "Spring-Onions", quantity: 200, unit: "g" },
   { name: "Flour", quantity: 20, unit: "g" },  
   { name: "Bbq-Seasoning", quantity: 2, unit: "g" },  
   { name: "Pepper", quantity: 2, unit: " pieces" },
@@ -162,7 +162,7 @@ const burgerAndFries= [
   { name: "Burger-Buns", quantity: 8, unit: " pieces" },
   { name: "Beef", quantity: 500, unit: "g" },
   { name: "Potatoes", quantity: 900, unit: "g" },
-  { name: "Onion", quantity: 0.5, unit: " pieces" },
+  { name: "Onions", quantity: 0.5, unit: " pieces" },
   { name: "Egg", quantity: 2, unit: " pieces" },
   { name: "Lettuce", quantity: 100, unit: "g" },
   { name: "Worcestershire-Sauce", quantity: 15, unit: "ml" },  
@@ -186,7 +186,7 @@ const stuffedVineLeaves= [
   { name: "Mince-Meat", quantity: 300, unit: "g" },
   { name: "Parsley", quantity: 60, unit: "g" },
   { name: "Tomato-Puree", quantity: 60, unit: "g" },
-  { name: "Onion", quantity: 2, unit: " pieces" },
+  { name: "Onions", quantity: 2, unit: " pieces" },
 ];
 
 const kabsa= [
@@ -197,7 +197,7 @@ const kabsa= [
   { name: "Garlic", quantity: 6, unit: " cloves" },
   { name: "Chicken", quantity: 650, unit: "g" },
   { name: "Tomato-Puree", quantity: 70, unit: "g" },
-  { name: "Onion", quantity: 2, unit: " pieces" },
+  { name: "Onions", quantity: 2, unit: " pieces" },
   { name: "Raisins", quantity: 70, unit: "g" },
   { name: "Paprika", quantity: 70, unit: "g" },
   { name: "Cardamon", quantity: 6, unit: "g" },
@@ -359,7 +359,6 @@ const ingredientPrices = [
   { name: "Yoghurt", price: 1.25, perUnit: 1000 },
   { name: "Sweetcorn", price: 0.47, perUnit: 300 },
   { name: "Parsely", price: 0.55, perUnit: 1 },
-  { name: "Onion", price: 0.65, perUnit: 11 },
   { name: "Onions", price: 0.65, perUnit: 11 },
   { name: "Creme-Fraishe", price: 0.99, perUnit: 300 },
   { name: "Coriander", price: 0.55, perUnit: 1 },
@@ -389,7 +388,7 @@ const ingredientPrices = [
   { name: "Sugar-Snap-Peas", price: 0.95, perUnit: 160 },
   { name: "Pasta", price: 0.69, perUnit: 500 },
   { name: "Spinach", price: 0.75, perUnit: 240 },
-  { name: "Spring-Onion", price: 0.49, perUnit: 100 },
+  { name: "Spring-Onions", price: 0.49, perUnit: 100 },
   { name: "Strawberry", price: 3.29, perUnit: 800 },
   { name: "Pineapple", price: 1.65, perUnit: 400 },
   { name: "Banana", price: 0.71, perUnit: 5 },
