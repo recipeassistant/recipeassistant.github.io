@@ -254,8 +254,35 @@ const tagine= [
    { name: "Ginger", quantity: 12, unit: "g" },
    { name: "Tumeric", quantity: 12, unit: "g" },
    { name: "Parsley", quantity: 30, unit: "g" },
-   
 ];
+
+const tikkaMasala = [
+  { name: "Chicken", quantity: 500, unit: "g" },
+  { name: "Yoghurt", quantity: 240, unit: "ml" },
+  { name: "Garam-Masala", quantity: 10, unit: "g" },
+  { name: "Cumin", quantity: 5, unit: "g" },
+  { name: "Coriander-Spice", quantity: 10, unit: "g" },
+  { name: "Tumeric", quantity: 5, unit: "g" },
+  { name: "Cayenne", quantity: 2.5, unit: "g" },
+  { name: "Onions", quantity: 1, unit: "piece" },
+  { name: "Garlic", quantity: 9, unit: "cloves" },
+  { name: "Ginger-Spice", quantity: 2.5, unit: "cm" },
+  { name: "Tomatoes", quantity: 5, unit: " pieces" },
+  { name: "Heavy-Cream", quantity: 240, unit: "ml" },
+  { name: "Fenugreek-Leaves", quantity: 2.5, unit: "g" },
+  { name: "Sugar", quantity: 5, unit: "g" },
+];
+
+const maqluba = [
+  { name: "Chicken", quantity: 500, unit: "g" },
+  { name: "Rice", quantity: 400, unit: "g" },
+  { name: "Onions", quantity: 1, unit: "piece" },
+  { name: "Garlic", quantity: 2, unit: "cloves" },
+  { name: "Cumin", quantity: 1, unit: "tsp" },
+  { name: "Cinnamon", quantity: 1, unit: "tsp" },
+  { name: "Tomatoes", quantity: 1, unit: "cup" },
+  ];
+
 
 const wheatabix= [
   { name: "Wheatabix", quantity: 1, unit: " pieces" },  
@@ -300,12 +327,16 @@ const ingredientPrices = [
   { name: "Angel-Hair-Pasta", price: 1.0, perUnit: 500 },
   { name: "Chickpeas", price: 0.45, perUnit: 250 },
   { name: "Lemon", price: 0, perUnit: 10 },
+  { name: "Fenugreek-Leaves", price: 0.99, perUnit: 100 },
   { name: "Chicken-Stock", price: 3.99, perUnit: 576 },
   { name: "Garlic-Naan", price: 1.2, perUnit: 2 },
   { name: "Ghee", price: 4.5, perUnit: 500 },
   { name: "Cinnamon-Stick", price: 1, perUnit: 100 },
   { name: "Green-Cardamon", price: 2.99, perUnit: 50 },
   { name: "Cloves", price: 0.20, perUnit: 40 },
+  { name: "Sugar", price: 0.95, perUnit: 1000 },
+  { name: "Tumeric", price: 0.20, perUnit: 40 },
+  { name: "Cayenne", price: 0.20, perUnit: 40 },
   { name: "Chilli", price: 0.20, perUnit: 40 },
   { name: "Bbq-Seasoning", price: 0.20, perUnit: 50 },
   { name: "Garam-Masala", price: 1.19, perUnit: 100 },
@@ -316,6 +347,7 @@ const ingredientPrices = [
   { name: "Sweet-Chilli-Sauce", price: 0.95, perUnit: 300 },
   { name: "Black-Pepper", price: 0.2, perUnit: 40 },
   { name: "Cardamon", price: 0.2, perUnit: 40 },
+  { name: "Heavy-Cream", price: 1.19, perUnit: 300 },
   { name: "Tumeric", price: 0.2, perUnit: 40 },
   { name: "Paprika", price: 0.2, perUnit: 40 },
   { name: "Ginger-Spice", price: 0.2, perUnit: 40 },
