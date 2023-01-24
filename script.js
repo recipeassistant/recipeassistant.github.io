@@ -281,7 +281,54 @@ const maqluba = [
   { name: "Cumin", quantity: 1, unit: "tsp" },
   { name: "Cinnamon", quantity: 1, unit: "tsp" },
   { name: "Tomatoes", quantity: 1, unit: "cup" },
+  { name: "Aubergine", quantity: 2, unit: " pieces" },
+  { name: "Potatoes", quantity: 600, unit: "g" },
+  { name: "Coriander", quantity: 1, unit: "tsp" },
   ];
+
+const burgerandbites = [
+  { name: "Chicken", quantity: 600, unit: "g" },
+  { name: "Garlic-Powder", quantity: 2, unit: "g" },
+  { name: "Onion-Powder", quantity: 2, unit: "g" },
+  { name: "Breadcrumbs", quantity: 56, unit: "g" },
+  { name: "Egg", quantity: 1, unit: " piece" },
+  { name: "Burger-Buns", quantity: 4, unit: " pieces" },
+  { name: "Jalapeno-Peppers", quantity: 150, unit: "g" },
+  { name: "Grated-Cheese", quantity: 113, unit: "g" },
+  { name: "Cream-Cheese", quantity: 227, unit: "g" },
+  { name: "Flour", quantity: 62, unit: "g" },
+  ];
+
+  const shepherdspie = [
+    { name: "Lamb", quantity: 800, unit: "g" },
+    { name: "Onions", quantity: 3, unit: " pieces" },
+    { name: "Garlic", quantity: 4, unit: " cloves" },
+    { name: "Green-Cardamom", quantity: 10, unit: " pieces" },
+    { name: "Ginger", quantity: 20, unit: "g" },
+    { name: "Cinnamon-Stick", quantity: 1, unit: " piece" },
+    { name: "Cloves", quantity: 4, unit: " pieces" },
+    { name: "Ghee", quantity: 4, unit: "tbsp" },
+    { name: "Tomato-Puree", quantity: 4, unit: "tbsp" },
+    { name: "Chicken-Stock", quantity: 20, unit: "g" },
+    { name: "Garam-Marsala", quantity: 1, unit: "tsp" },
+    { name: "Fennel-Seeds", quantity: 1, unit: "tsp" },
+    { name: "Yoghurt", quantity: 60, unit: "g" },
+    { name: "Potatoes", quantity: 1000, unit: "g" },
+    { name: "Carrot", quantity: 500, unit: "g" },
+    { name: "Peas", quantity: 150, unit: "g" },
+    { name: "Butter", quantity: 50, unit: "g" },
+    { name: "Milk", quantity: 250, unit: "ml" },
+    ];
+
+    const kimchiNoodles = [
+      { name: "Onions", quantity: 2, unit: " small" },
+      { name: "Garlic", quantity: 2, unit: " cloves" },
+      { name: "Tomato-Sauce", quantity: 60, unit: "g" },      
+      { name: "Harissa", quantity: 1, unit: " tablespoon" },
+      { name: "Sardines", quantity: 2, unit: " tins" },
+      { name: "Kimchi", quantity: 1, unit: " pot" },
+      { name: "Angel-Hair-Pasta", quantity: 500, unit: "g" },
+      ];
 
 
 const wheatabix= [
@@ -326,20 +373,26 @@ const ingredientPrices = [
   { name: "Golden-Syrup", price: 1.09, perUnit: 680 },
   { name: "Angel-Hair-Pasta", price: 1.0, perUnit: 500 },
   { name: "Chickpeas", price: 0.45, perUnit: 250 },
+  { name: "Harissa", price: 0.45, perUnit: 250 },
   { name: "Lemon", price: 0, perUnit: 10 },
+  { name: "Kimchi", price: 3.00, perUnit: 1 },
   { name: "Fenugreek-Leaves", price: 0.99, perUnit: 100 },
+  { name: "Aubergine", price: 0.85, perUnit: 1 },
   { name: "Chicken-Stock", price: 3.99, perUnit: 576 },
   { name: "Garlic-Naan", price: 1.2, perUnit: 2 },
-  { name: "Ghee", price: 4.5, perUnit: 500 },
+  { name: "Ghee", price: 1.5, perUnit: 500 },
+  { name: "Sardines", price: 0.46, perUnit: 1 },
   { name: "Cinnamon-Stick", price: 1, perUnit: 100 },
-  { name: "Green-Cardamon", price: 2.99, perUnit: 50 },
+  { name: "Green-Cardamom", price: 0.20, perUnit: 50 },
   { name: "Cloves", price: 0.20, perUnit: 40 },
+  { name: "Potatoes", price: 0.69, perUnit: 1000 },
   { name: "Sugar", price: 0.95, perUnit: 1000 },
+  { name: "Peas", price: 0.99, perUnit: 700 },
   { name: "Tumeric", price: 0.20, perUnit: 40 },
   { name: "Cayenne", price: 0.20, perUnit: 40 },
   { name: "Chilli", price: 0.20, perUnit: 40 },
   { name: "Bbq-Seasoning", price: 0.20, perUnit: 50 },
-  { name: "Garam-Masala", price: 1.19, perUnit: 100 },
+  { name: "Garam-Marsala", price: 1.00, perUnit: 100 },
   { name: "Nutmeg", price: 0.20, perUnit: 40 },
   { name: "Honey", price: 1.49, perUnit: 340 },
   { name: "Egg-Noodles", price: 1.19, perUnit: 410 },
@@ -347,13 +400,18 @@ const ingredientPrices = [
   { name: "Sweet-Chilli-Sauce", price: 0.95, perUnit: 300 },
   { name: "Black-Pepper", price: 0.2, perUnit: 40 },
   { name: "Cardamon", price: 0.2, perUnit: 40 },
+  { name: "Garlic-Powder", price: 0.2, perUnit: 40 },
+  { name: "Onion-Powder", price: 0.2, perUnit: 40 },
   { name: "Heavy-Cream", price: 1.19, perUnit: 300 },
   { name: "Tumeric", price: 0.2, perUnit: 40 },
   { name: "Paprika", price: 0.2, perUnit: 40 },
   { name: "Ginger-Spice", price: 0.2, perUnit: 40 },
+  { name: "Ginger", price: 0.69, perUnit: 125 },
   { name: "Cinnamon", price: 0.2, perUnit: 40 },
+  { name: "Green-Cardamon", price: 0.2, perUnit: 40 },
   { name: "Clove", price: 0.2, perUnit: 40 },
   { name: "Cumin", price: 0.2, perUnit: 40 },
+  { name: "Fennel-Seeds", price: 0.2, perUnit: 40 },
   { name: "Cajun", price: 0.2, perUnit: 40 },
   { name: "Coriander-Spice", price: 0.2, perUnit: 40 },
   { name: "Raisins", price: 1.25, perUnit: 500 },
@@ -384,6 +442,8 @@ const ingredientPrices = [
   { name: "Pepper", price: 1.15, perUnit: 3 },
   { name: "Prawns", price: 1.85, perUnit: 150 },
   { name: "Grated-Cheese", price: 1.99, perUnit: 250 },
+  { name: "Cream-Cheese", price: 0.85, perUnit: 200 },
+  { name: "Jalapeno-Peppers", price: 1.69, perUnit: 330 },
   { name: "Greek-Cheese", price: 0.7, perUnit: 200 },
   { name: "Veg-Stock", price: 0.52, perUnit: 120 },
   { name: "Penne-Pasta", price: 0.8, perUnit: 500 },
@@ -402,7 +462,7 @@ const ingredientPrices = [
   { name: "Lasagne-Sheets", price: 0.69, perUnit: 500 },
   { name: "Milk", price: 1.45, perUnit: 2270 },
   { name: "Butter", price: 2.15, perUnit: 500 },
-  { name: "Flour", price: 0.55, perUnit: 1500 },
+  { name: "Flour", price: 0.10, perUnit: 1500 },
   { name: "Teriyaki/BBQ-Jerk-Sauce", price: 0.89, perUnit: 310 },
   { name: "Ginger", price: 0.69, perUnit: 125 },
   { name: "Green-Beans", price: 0.69, perUnit: 1000 },
@@ -410,7 +470,7 @@ const ingredientPrices = [
   { name: "Burger-Buns", price: 1.0, perUnit: 12 },
   { name: "Haloumi-Cheese", price: 1.89, perUnit: 225 },
   { name: "Bread", price: 0.65, perUnit: 18 },
-  { name: "Egg", price: 2.09, perUnit: 15 },
+  { name: "Egg", price: 0.15, perUnit: 1 },
   { name: "Weetabix", price: 1.89, perUnit: 36 },
   { name: "Beef", price: 1.0, perUnit: 100 },
   { name: "Coconut-Milk", price: 0.69, perUnit: 400 },
@@ -459,6 +519,11 @@ btn27 = document.querySelectorAll('.counter')[26]
 btn28 = document.querySelectorAll('.counter')[27]
 btn29 = document.querySelectorAll('.counter')[28]
 btn30 = document.querySelectorAll('.counter')[29]
+btn31 = document.querySelectorAll('.counter')[30]
+btn32 = document.querySelectorAll('.counter')[31]
+btn33 = document.querySelectorAll('.counter')[32]
+btn34 = document.querySelectorAll('.counter')[33]
+btn35 = document.querySelectorAll('.counter')[34]
 
 menu2 = document.getElementById("menu-list")
 
@@ -492,6 +557,12 @@ title26 = $(".needtitle")[25].innerHTML;
 title27 = $(".needtitle")[26].innerHTML;
 title28 = $(".needtitle")[27].innerHTML;
 title29 = $(".needtitle")[28].innerHTML;
+title30 = $(".needtitle")[29].innerHTML;
+title31 = $(".needtitle")[30].innerHTML;
+title32 = $(".needtitle")[31].innerHTML;
+title33 = $(".needtitle")[32].innerHTML;
+title34 = $(".needtitle")[33].innerHTML;
+title35 = $(".needtitle")[34].innerHTML;
 
 
 
