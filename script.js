@@ -389,6 +389,7 @@ const ingredientPrices = [
   { name: "Sugar", price: 0.95, perUnit: 1000 },
   { name: "Peas", price: 0.99, perUnit: 700 },
   { name: "Tumeric", price: 0.20, perUnit: 40 },
+  { name: "Garam-Masala", price: 0.20, perUnit: 40 },
   { name: "Cayenne", price: 0.20, perUnit: 40 },
   { name: "Chilli", price: 0.20, perUnit: 40 },
   { name: "Bbq-Seasoning", price: 0.20, perUnit: 50 },
