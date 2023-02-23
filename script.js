@@ -41,6 +41,11 @@ const pepperCornTaco = [
   { name: "Greek-Cheese", quantity: 100, unit: "g" },
   { name: "Wrap", quantity: 8, unit: " pieces" },
   { name: "Yoghurt", quantity: 100, unit: "g" },
+  { name: "Paprika", quantity: 2, unit: "g" },
+  { name: "Onion-Powder", quantity: 2, unit: "g" },
+  { name: "Cayenne", quantity: 2, unit: "g" },
+  { name: "Oregano", quantity: 2, unit: "g" },
+  { name: "Thyme", quantity: 2, unit: "g" },
 ];
 
 const sharbaLibya = [
@@ -144,18 +149,17 @@ const thaiGreenCurry = [
 ];
 
 const sweetChickenNoodles= [
-  { name: "Udon-Noodles", quantity: 400, unit: "g" },
+  { name: "Udon-Noodles", quantity: 500, unit: "g" },
   { name: "Chicken", quantity: 500, unit: "g" },
-  { name: "Garlic", quantity: 4, unit: " cloves" },
-  { name: "Ginger-Spice", quantity: 2, unit: "g" },
+  { name: "Garlic", quantity: 2, unit: " cloves" },
   { name: "Golden-Syrup", quantity: 200, unit: "g" },
   { name: "Spring-Onions", quantity: 200, unit: "g" },
   { name: "Flour", quantity: 20, unit: "g" },  
   { name: "Bbq-Seasoning", quantity: 2, unit: "g" },  
   { name: "Pepper", quantity: 2, unit: " pieces" },
-  { name: "Sweet-Soy-Sauce", quantity: 70, unit: "g" },
-  { name: "Soy-Sauce", quantity: 30, unit: "g" },
-  { name: "Vinegar", quantity: 75, unit: "ml" },
+  { name: "Garlic-Powder", quantity: 2, unit: "g" },
+  { name: "Soy-Sauce", quantity: 40, unit: "ml" },
+  { name: "Vinegar", quantity: 20, unit: "ml" },
 ];
 
 const burgerAndFries= [
@@ -300,24 +304,15 @@ const burgerandbites = [
   ];
 
   const shepherdspie = [
-    { name: "Lamb", quantity: 800, unit: "g" },
-    { name: "Onions", quantity: 3, unit: " pieces" },
-    { name: "Garlic", quantity: 4, unit: " cloves" },
-    { name: "Green-Cardamom", quantity: 10, unit: " pieces" },
-    { name: "Ginger", quantity: 20, unit: "g" },
-    { name: "Cinnamon-Stick", quantity: 1, unit: " piece" },
-    { name: "Cloves", quantity: 4, unit: " pieces" },
-    { name: "Ghee", quantity: 4, unit: "tbsp" },
-    { name: "Tomato-Puree", quantity: 4, unit: "tbsp" },
+    { name: "Mince-Meat", quantity: 600, unit: "g" },
+    { name: "Onions", quantity: 1, unit: " piece" },
+    { name: "Garlic", quantity: 2, unit: " cloves" },
     { name: "Chicken-Stock", quantity: 20, unit: "g" },
-    { name: "Garam-Marsala", quantity: 1, unit: "tsp" },
-    { name: "Fennel-Seeds", quantity: 1, unit: "tsp" },
-    { name: "Yoghurt", quantity: 60, unit: "g" },
-    { name: "Potatoes", quantity: 1000, unit: "g" },
-    { name: "Carrot", quantity: 500, unit: "g" },
+    { name: "Potatoes", quantity: 450, unit: "g" },
+    { name: "Grated-Cheese", quantity: 240, unit: "g" },
     { name: "Peas", quantity: 150, unit: "g" },
     { name: "Butter", quantity: 50, unit: "g" },
-    { name: "Milk", quantity: 250, unit: "ml" },
+    { name: "Milk", quantity: 120, unit: "ml" },
     ];
 
     const kimchiNoodles = [
@@ -392,6 +387,8 @@ const ingredientPrices = [
   { name: "Garam-Masala", price: 0.20, perUnit: 40 },
   { name: "Cayenne", price: 0.20, perUnit: 40 },
   { name: "Chilli", price: 0.20, perUnit: 40 },
+  { name: "Chinese-5-Spice", price: 0.20, perUnit: 40 },
+  { name: "Celery-Salt", price: 0.20, perUnit: 40 },
   { name: "Bbq-Seasoning", price: 0.20, perUnit: 50 },
   { name: "Garam-Marsala", price: 1.00, perUnit: 100 },
   { name: "Nutmeg", price: 0.20, perUnit: 40 },
@@ -400,6 +397,8 @@ const ingredientPrices = [
   { name: "Udon-Noodles", price: 1.19, perUnit: 400 },
   { name: "Sweet-Chilli-Sauce", price: 0.95, perUnit: 300 },
   { name: "Black-Pepper", price: 0.2, perUnit: 40 },
+  { name: "Oregano", price: 0.2, perUnit: 40 },
+  { name: "Thyme", price: 0.2, perUnit: 40 },
   { name: "Cardamon", price: 0.2, perUnit: 40 },
   { name: "Garlic-Powder", price: 0.2, perUnit: 40 },
   { name: "Onion-Powder", price: 0.2, perUnit: 40 },
